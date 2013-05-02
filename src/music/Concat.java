@@ -29,8 +29,11 @@ public class Concat implements Music {
         return first;
     }
     
+    /**
+     * @return second piece in this concatenation
+     */
     public Music second(){
-        return this.second;
+        return second;
     }
     
     /**
