@@ -9,6 +9,8 @@ public class Concat implements Music {
     // Rep invariant: m1, m2 != null
 
     private void checkRep() {
+    	assert(!first.equals(null));
+    	assert(!second.equals(null));
     }
     
     /**
