@@ -9,6 +9,7 @@ public class Note implements Music {
     private final Instrument instrument;
     
     private void checkRep() {
+        assert pitch != null;
         assert duration >= 0;
         assert instrument != null;
     }
